@@ -2,39 +2,32 @@ import PropTypes from "prop-types";
 import { VerticalTimelineElement } from "react-vertical-timeline-component";
 
 const ExperienceCard = ({ experience }) => {
-    const { date, iconBg, icon, title, company_name, points } = experience;
+    const { date, iconBg, title, company_name, points } = experience;
 
     return (
         <VerticalTimelineElement
             contentStyle={{
-                background: "#1d1836",
-                color: "#fff",
+                background: "linear-gradient(to right, rgb(243, 244, 246), rgb(209, 213, 219))",
+                color: "blue",
+
             }}
-            contentArrowStyle={{ borderRight: "7px solid  #232631" }}
+            contentArrowStyle={{ borderRight: "2px solid  #000" }}
             date={date}
             iconStyle={{ background: iconBg }}
-            icon={
-                <div className='flex justify-center items-center w-full h-full'>
-                    <img
-                        src={icon}
-                        alt={company_name}
-                        className='w-[60%] h-[60%] object-contain'
-                    />
-                </div>
-            }
+
         >
             <div>
-                <h3 className='text-white text-[24px] font-bold'>{title}</h3>
-                <p className='text-secondary text-[16px] font-semibold' style={{ margin: 0 }}>
+                <h3 className='text-black text-[24px] font-bold'>{title}</h3>
+                <p className='text-black text-[16px] font-semibold' style={{ margin: 0 }}>
                     {company_name}
                 </p>
             </div>
 
-            <ul className='mt-5 list-disc ml-5 space-y-2'>
+            <ul className='mt-5 list-disc ml-5 space-y-2 '>
                 {points.map((point, index) => (
                     <li
                         key={`experience-point-${index}`}
-                        className='text-white text-[14px] pl-1 tracking-wider'
+                        className='text-black text-[13px] pl-1 tracking-wider  '
                     >
                         {point}
                     </li>

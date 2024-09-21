@@ -4,25 +4,18 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
   redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
   carrent,
   jobit,
   tripguide,
-  threejs,
+ 
 } from "../assets";
 
 export const navLinks = [
@@ -42,11 +35,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web Development",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "React,VueJs,NuxtJs",
     icon: mobile,
   },
   {
@@ -54,7 +47,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "UI/UX designer",
+    title: "UI/UX design",
     icon: creator,
   },
 ];
@@ -72,10 +65,7 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+  
   {
     name: "React JS",
     icon: reactjs,
@@ -92,14 +82,8 @@ const technologies = [
     name: "Node JS",
     icon: nodejs,
   },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+
+
   {
     name: "git",
     icon: git,
@@ -108,63 +92,48 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "React.js Developer and Vue.Js",
+    iconBg: "#000",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js and Vue.js to optimize user experience",
+      "Implemented responsive design and cross-browser compatibility for optimal usability",
+      "Collaborated with designers and developers to ensure efficient project completion",
+      "Participated in code reviews, provided constructive feedback, and collaborated on debugging issues",
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    title: "Figma",
+    iconBg: "#000",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Translated high-fidelity designs into responsive, functional code using React.js and Vue.js for mobile applications",
+      "Ensured pixel-perfect, eye-pleasing UI aligned with brand guidelines",
+      "Implemented mobile-first, responsive design for seamless experience across devices",
+      "Integrated UI components with API services for dynamic content and smooth performance",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "3D Design and Web Development Using Canvas",
+    iconBg: "#000",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained web applications using React.js and Vue.js, ensuring smooth, scalable performance",
+      "Integrated RESTful APIs and GraphQL into applications, allowing for dynamic content and real-time data updates",
+      "Utilized Git and VSCode for efficient development, and implemented 3D design using Canvas",
+      "Collaborated with cross-functional teams to transform requirements into high-quality products while ensuring cross-browser compatibility and optimal performance through testing and optimization",
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Flutter/React Native ",
+    iconBg: "#000",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained mobile applications using Flutter and React Native, ensuring high-performance and cross-platform compatibility",
+      "Integrated RESTful APIs and GraphQL into mobile apps, enabling real-time data updates and dynamic content",
+      "Collaborated with cross-functional teams, including designers, product managers, and developers, to transform requirements into functional, user-friendly mobile apps",
+      "Conducted thorough testing and debugging to ensure app performance and cross-device compatibility",
     ],
   },
 ];
@@ -198,17 +167,17 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Online Store",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "Vue",
+        color: "blue-text-green",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "Vuex",
+        color: "green-text-vue",
       },
       {
         name: "tailwind",
@@ -219,20 +188,20 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "Vue blog",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
+        name: "VueJs",
+        color: "blue-text-green",
       },
       {
-        name: "restapi",
+        name: "laravel",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
@@ -240,16 +209,16 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "gym app",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "rapidapi",
         color: "green-text-gradient",
       },
       {

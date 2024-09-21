@@ -48,7 +48,7 @@ const Navbar = () => {
 
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Sakhile &nbsp;
-            <span className='sm:block hidden'> | Front-end developer</span>
+            <span className='sm:block hidden'> | Front-end developer  <span className="bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400 bg-clip-text text-transparent">UI/UX designer</span></span>
           </p>
         </Link>
 
