@@ -185,7 +185,7 @@ const projects = [
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://portfoliosakhile.netlify.app",
   },
   {
     name: "Vue blog",
@@ -206,7 +206,7 @@ const projects = [
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://vue-blogs-two.vercel.app",
   },
   {
     name: "Online store",
@@ -218,16 +218,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "rapidapi",
+        name: "Vuex",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://skipamanclothing.vercel.app",
   },
 ];
 

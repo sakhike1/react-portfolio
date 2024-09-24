@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { lo } from "../assets";
 
+
 const Footer = () => {
     const [bgColor, setBgColor] = useState("bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r");
 
@@ -96,6 +97,7 @@ const Footer = () => {
                                     3D Animation
                                 </a>
                             </li>
+
                         </ul>
                     </div>
                 </div>

@@ -8,6 +8,7 @@ import Works from "./Works";
 import Feedbacks from "./Feedbacks";
 import Contact from "./Contact";
 import CanvasLoader from "./Loader";
+import audioPlayer from "./AudioPlayer"; 
 import  Footer  from './Footer';
 
 
@@ -25,5 +26,6 @@ export {
   BallCanvas, 
   ComputersCanvas, 
   StarsCanvas,
+  audioPlayer,
   Footer
 };

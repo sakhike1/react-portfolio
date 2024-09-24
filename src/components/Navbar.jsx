@@ -5,6 +5,10 @@ import { styles } from "../styles";
 import { navLinks } from "../constants";
 import { lo, menu, close } from "../assets";
 
+
+
+
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
@@ -42,6 +46,7 @@ const Navbar = () => {
         >
           <div className="text-center">
             <img src={lo} alt='logo' className='w-[80px] h-[110px] rounded-full object-cover' />
+
           </div>
 
 
@@ -49,8 +54,11 @@ const Navbar = () => {
           <p className='text-white text-[18px] font-bold cursor-pointer flex '>
             Sakhile &nbsp;
             <span className='sm:block hidden'> | Front-end developer  <span className="bg-gradient-to-r from-sky-400 via-rose-400 to-lime-400 bg-clip-text text-transparent">UI/UX designer</span></span>
+
           </p>
+
         </Link>
+
 
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((nav) => (
@@ -61,9 +69,12 @@ const Navbar = () => {
               onClick={() => setActive(nav.title)}
             >
               <a href={`#${nav.id}`}>{nav.title}</a>
+
             </li>
           ))}
+
         </ul>
+
 
         <div className='sm:hidden flex flex-1 justify-end items-center'>
           <img
@@ -93,6 +104,7 @@ const Navbar = () => {
               ))}
             </ul>
           </div>
+
         </div>
       </div>
     </nav>
